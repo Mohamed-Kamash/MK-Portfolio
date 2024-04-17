@@ -1,0 +1,35 @@
+@media only screen and (min-width: 0px) and (max-width: 768px){
+  nav{
+    width: 100%!important;
+    border-radius: unset!important;
+  }
+
+}
+
+
+.nav-item {
+  margin: 0 14px !important;
+  padding: 0!important;
+  text-align: center;
+}
+
+.nav-link{
+  padding: 0!important;
+}
+
+
+ul li div {
+  border-radius: 10px;
+  transition: all 0.2s;
+
+  &:hover:not(.active) {
+    transform: scale(1.2);
+  }
+}
+
+.active {
+  color: rgb(255, 0, 0);
+}
+
+
+

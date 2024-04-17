@@ -1,0 +1,30 @@
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .row {
+    padding-top: 90px !important;
+  }
+
+  #routingContainer {
+    overflow: unset !important;
+    min-height: 50vh!important;
+  }
+
+  .col-md-9{
+    padding-bottom: 12px !important;
+  }
+
+  .inner{height: 100%!important;}
+}
+// END MEDIA
+
+#routingContainer {
+  overflow: auto;
+}
+
+.inner{
+  height: 70vh;
+}
+
+.row {
+  padding-top: 120px;
+}
+

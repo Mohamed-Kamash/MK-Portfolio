@@ -1,0 +1,30 @@
+.pointer{transition: transform 0.5s;}
+
+#skills:hover > .pointer:not(:hover){
+    filter: blur(2px);
+    transform: scale(0.9);
+}
+
+.pointer:hover{
+    transform: scale(1.5);
+}
+
+h6{position: relative;display: inline;}
+h6::before{
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: #ff6a6a;
+    position: absolute;
+    left: -70px;
+    bottom: 8px;
+}
+h6::after{
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: #ff6a6a;
+    position: absolute;
+    right: -70px;
+    bottom: 8px;
+}
