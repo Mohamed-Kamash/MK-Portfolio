@@ -60,3 +60,13 @@ figure img {
 .row p {
   font-size: 13px;
 }
+
+a > i:not(.fa-file-arrow-down){
+  transition: all 0.5s;
+  margin-top: 5px;
+  font-size: 30px!important;
+  
+  &:hover{
+  transform: scale(1.5);}
+
+}

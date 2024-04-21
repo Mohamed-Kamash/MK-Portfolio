@@ -1,5 +1,15 @@
-<section class="">
-  <div>
-    <p>welcome</p>
+<section [@slideUp]="slide? 'slide' : '' ">
+  <div class="animated-title" [@fadeIntro]="fadeIntro ? 'closed' :'' ">
+    <div class="text-top">
+      <div>
+        <p class="m-0 fs-2">Welcome to</p>
+        <span>M</span><span id="element"></span>
+      </div>
+    </div>
+    <div class="text-bottom">
+      <div class="fs-4">
+        Thanks For Visiting <i class="fa-solid fa-heart text-danger"></i> !
+      </div>
+    </div>
   </div>
 </section>
