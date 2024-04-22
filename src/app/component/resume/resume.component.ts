@@ -10,4 +10,13 @@ import { CommonModule } from '@angular/common';
 })
 export class ResumeComponent {
 
+  isShow:boolean = false
+
+  show(){
+    this.isShow = true
+  }
+  close(){
+    this.isShow = false
+  }
+
 }
