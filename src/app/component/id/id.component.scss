@@ -27,20 +27,25 @@
   .row p , a:not(.btn) {
     font-size: 11px!important;
   }
+
+  #MainRightDiv > div { 
+    margin-bottom: 5%;
+  }
   
 }
 // END MEDIA SCREEN
 
 // main section
 section {
-  padding-top: 110px;
+  height: 100%;
+  padding-top: 25%;
   padding-bottom: 12px;
 }
 
 figure {
   width: 50%;
   position: absolute;
-  top: -70px;
+  top: -20%;
   left: 25%;
 }
 
@@ -68,6 +73,7 @@ a > i:not(.fa-file-arrow-down){
   font-size: 8px!important;
   font-weight: 400;
   position: absolute;
-  top: -15px;
-  right: 8px;
+  top: -40%;
+  right: 18%;
 }
+

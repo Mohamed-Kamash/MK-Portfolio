@@ -1,22 +1,27 @@
 <nav
-  class="navbar navbar-expand shadow-lg rounded-bottom-3 d-flex justify-content-between align-content-center bg-body-tertiary ps-5 pe-5"
+  class="navbar navbar-expand shadow-lg rounded-bottom-3 d-flex justify-content-between align-content-center bg-body ps-5 pe-5"
 >
   <img src="./assets/images/L_02.png" width="35" alt="" />
 
   <ul class="navbar-nav">
     <li class="nav-item">
-    <div class="pointer" [routerLink]="['/about']" routerLinkActive="active fa-beat" style="--fa-beat-scale: 1.1;">
+      <div
+        class="pointer"
+        [routerLink]="['/about']"
+        routerLinkActive="active fa-beat"
+        style="--fa-beat-scale: 1.1"
+      >
         <i class="fa-solid fa-user"></i>
         <a class="nav-link">About</a>
       </div>
     </li>
 
-    
     <li class="nav-item">
       <div
         class="pointer"
         [routerLink]="['/projects']"
-        routerLinkActive="active fa-beat" style="--fa-beat-scale: 1.1;"
+        routerLinkActive="active fa-beat"
+        style="--fa-beat-scale: 1.1"
       >
         <i class="fa-solid fa-briefcase"></i>
         <a class="nav-link">Projects</a>
@@ -24,12 +29,15 @@
     </li>
 
     <li class="nav-item">
-      <div class="pointer" [routerLink]="['/resume']" routerLinkActive="active fa-beat" style="--fa-beat-scale: 1.1;">
+      <div
+        class="pointer"
+        [routerLink]="['/resume']"
+        routerLinkActive="active fa-beat"
+        style="--fa-beat-scale: 1.1"
+      >
         <i class="fa-solid fa-file"></i>
         <a class="nav-link">Resume</a>
       </div>
     </li>
-
-
   </ul>
 </nav>

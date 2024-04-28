@@ -4,8 +4,11 @@
 
 $mainFont:'Poppins';
 
-body{
-font-family: $mainFont;
+
+
+body {
+    font-family: $mainFont;
+    background: linear-gradient(to top, rgb(9, 32, 63) 0%, rgb(83, 120, 149) 100%);
 }
 
 
