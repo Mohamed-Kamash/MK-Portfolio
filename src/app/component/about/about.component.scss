@@ -1,5 +1,9 @@
 .pointer{transition: transform 0.5s;}
 
+h4,h5{
+    text-align: center;
+}
+
 #skills:hover > .pointer:not(:hover){
     filter: blur(2px);
     transform: scale(0.9);
@@ -27,4 +31,8 @@ h6::after{
     position: absolute;
     right: -70px;
     bottom: 8px;
+}
+
+.custom_width{
+    width: 85%;
 }

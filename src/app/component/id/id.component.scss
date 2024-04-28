@@ -24,15 +24,16 @@
     padding: 0!important;
   }
 
- 
+  .row p , a:not(.btn) {
+    font-size: 11px!important;
+  }
+  
 }
 // END MEDIA SCREEN
 
 // main section
 section {
-  padding-top: 100px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-top: 110px;
   padding-bottom: 12px;
 }
 
@@ -47,7 +48,7 @@ figure img {
   position: relative;
 }
 
-.row p , a {
+.row p , a:not(.btn) {
   font-size: 13px;
 }
 
@@ -59,4 +60,14 @@ a > i:not(.fa-file-arrow-down){
   &:hover{
   transform: scale(1.5);}
 
+}
+
+
+.coppied{
+  background-color:green;
+  font-size: 8px!important;
+  font-weight: 400;
+  position: absolute;
+  top: -15px;
+  right: 8px;
 }

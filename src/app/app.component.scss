@@ -8,11 +8,17 @@
     min-height: 50vh!important;
   }
 
-  .col-md-9{
+  .content{
     padding-bottom: 12px !important;
+    padding-left: 12px!important;
+    padding-right: 12px!important;
   }
 
   .inner{height: 100%!important;}
+
+  .offset-md-3{
+    padding-right: 0!important;
+  }
 }
 // END MEDIA
 
@@ -21,10 +27,10 @@
 }
 
 .inner{
-  height: 70vh;
+  height: 75vh;
 }
 
 .row {
-  padding-top: 120px;
+  padding-top: 90px;
 }
 
