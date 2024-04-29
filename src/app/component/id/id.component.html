@@ -50,12 +50,14 @@
         <div class="col-2 d-flex justify-content-center align-items-center">
           <i class="fa-solid fa-envelope-open-text fs-4 text-black"></i>
         </div>
-        <div class="col-10 d-flex align-items-center p-0 position-relative">
+        <div class="col-10 d-flex align-items-center p-0">
           <p #mytext class="m-0 me-1">Mohamedes.kamash@gmail.com</p>
-          <p class="coppied badge" *ngIf="coppied">Coppied !</p>
-          <button (click)="copy()" class="btn btn-outline-dark ps-1 pe-1 p-0">
-            <i class="fa-regular fa-copy small"></i>
-          </button>
+          <div class="position-relative">
+            <button (click)="copy()" class="btn btn-outline-dark ps-1 pe-1 p-0">
+              <span class="coppied badge" *ngIf="coppied">Coppied !</span>
+              <i class="fa-regular fa-copy small"></i>
+            </button>
+          </div>
         </div>
       </div>
     </div>
