@@ -4,15 +4,19 @@
     display: flex;
   }
 
-  #MainLeftDiv{width: 40%;}
-  #MainRightDiv{width: 60%;}
+  #MainLeftDiv {
+    width: 40%;
+  }
+  #MainRightDiv {
+    width: 60%;
+  }
 
   figure {
     width: 100% !important;
-    height: 100%!important;
+    height: 100% !important;
     position: unset !important;
     display: flex;
-    align-items: center!important;
+    align-items: center !important;
 
     &::before {
       content: unset !important;
@@ -20,18 +24,18 @@
     }
   }
 
-  #socialContainer{
-    padding: 0!important;
+  #socialContainer {
+    padding: 0 !important;
   }
 
-  .row p , a:not(.btn) {
-    font-size: 11px!important;
+  .row p,
+  a:not(.btn) {
+    font-size: 11px !important;
   }
 
-  #MainRightDiv > div { 
+  #MainRightDiv > div {
     margin-bottom: 5%;
   }
-  
 }
 // END MEDIA SCREEN
 
@@ -53,27 +57,26 @@ figure img {
   position: relative;
 }
 
-.row p , a:not(.btn) {
+.row p,
+a:not(.btn) {
   font-size: 13px;
 }
 
-a > i:not(.fa-file-arrow-down){
+a > i:not(.fa-file-arrow-down) {
   transition: all 0.5s;
   margin-top: 5px;
-  font-size: 30px!important;
-  
-  &:hover{
-  transform: scale(1.5);}
+  font-size: 30px !important;
 
+  &:hover {
+    transform: scale(1.5);
+  }
 }
 
-
-.coppied{
-  background-color:green;
-  font-size: 8px!important;
+.coppied {
+  background-color: green;
+  font-size: 8px !important;
   font-weight: 400;
   position: absolute;
   top: -40%;
   left: -50%;
 }
-
